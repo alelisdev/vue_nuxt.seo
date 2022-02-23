@@ -1,0 +1,239 @@
+.row {
+    width: 100%;
+    display: flex !important;
+    flex-wrap: wrap;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+    width: 100%;
+}
+
+@media(min-width:1100px) {
+    .col-1 {
+        max-width: 8.333%;
+        flex: 0 0 8.333%;
+    }
+    .col-2 {
+        max-width: 16.666%;
+        flex: 0 0 16.666%;
+    }
+    .col-3 {
+        max-width: 25%;
+        flex: 0 0 25%;
+    }
+    .col-4 {
+        max-width: 33.333%;
+        flex: 0 0 33.333%;
+    }
+    .col-5 {
+        max-width: 41.666%;
+        flex: 0 0 41.666%;
+    }
+    .col-6 {
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+    .col-7 {
+        max-width: 58.333%;
+        flex: 0 0 58.333%;
+    }
+    .col-8 {
+        max-width: 66.666%;
+        flex: 0 0 66.666%;
+    }
+    .col-9 {
+        max-width: 75%;
+        flex: 0 0 75%;
+    }
+    .col-10 {
+        max-width: 83.333%;
+        flex: 0 0 83.333%;
+    }
+    .col-11 {
+        max-width: 91.666%;
+        flex: 0 0 91.666%;
+    }
+    .col-12 {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+}
+
+:focus {
+    outline: none;
+}
+
+.font-1 {
+    font-family: Raleway;
+}
+
+.font-2 {
+    font-family: Montserrat;
+}
+
+.font-3 {
+    font-family: Poppins;
+}
+
+.custom-dot-class li button:before {
+    color: #3bc9db;
+    font-size: 14px;
+}
+
+.custom-dot-class li.slick-active button:before {
+    color: #3bc9db;
+}
+
+.custom-dot-class li {
+    padding: 0px 5px;
+}
+
+.slick-dots {
+    bottom: 15px;
+}
+
+.tac {
+    text-align: center !important;
+}
+
+.slick-dots li button:before {
+    border: solid 1px #000;
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    content: '';
+    text-align: center;
+    opacity: 0.25;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-dots li.slick-active button:before {
+    background-color: #111;
+}
+
+@media(max-width:1100px) {
+    .slick-dots li button:before {
+        border-color: #1F97EF;
+    }
+    .slick-dots li.slick-active button:before {
+        background-color: #1F97EF;
+    }
+}
+
+.btn {
+    padding: 8px 40px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    cursor: pointer;
+    line-height: 25px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.btn.btn-info {
+    background: #1F97EF;
+    box-shadow: 0px 0px 28px 3px rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+.btn.btn-info:hover {
+    background: #3BC9DB;
+    opacity: 0.8;
+}
+
+.btn.btn-primary {
+    background: #ffffff;
+    box-shadow: 0px 0px 28px 3px rgba(0, 0, 0, 0.1);
+    color: #000;
+}
+
+.btn.btn-primary:hover {
+    background: #e2e2e2;
+}
+
+.btn.btn-outline {
+    background-color: blue;
+    color: #fff;
+    border: solid 1px #fff;
+}
+
+.btn.btn-uline {
+    color: #FFF;
+}
+
+.d-none {
+    display: none !important;
+}
+
+.d-block {
+    display: block !important;
+}
+
+.d-flex {
+    display: flex;
+}
+
+@media(min-width: 1100px) {
+    .d-none-gt-1100 {
+        display: none;
+    }
+}
+
+@media(max-width: 1100px) {
+    .d-none-lt-1100 {
+        display: none;
+    }
+}
+
+.slick-slide img {
+    display: inline-block !important;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+a {
+    color: #FFF;
+}
+
+a:hover {
+    color: #3BC9DB;
+}
+
+@media(max-width: 1100px) {
+    .breadcrumb_links,
+    .breadcrumb_links>a {
+        font-style: italic;
+        color: #3BC9DB !important;
+    }
+    .breadcrumb_links a:first-child {
+        color: #FFF !important;
+    }
+}
